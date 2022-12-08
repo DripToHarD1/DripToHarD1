@@ -79,10 +79,12 @@ let employee = [
        "Bonus" : BonusRating.B,
        //"Result" : Salary*Bonus
     }]
+    
     for (let index = 0; index < employee.length; index++) {
+       // let Result = employee[index].employee.
         console.log(employee[index],"Result = ",employee[index].Salary*employee[index].Bonus)
-        Vat()
-        console(Result)
+    
+        //console(Result)
     }
     
     
