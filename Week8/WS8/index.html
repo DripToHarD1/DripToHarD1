@@ -15,13 +15,26 @@
   </head>
 
   <body>
-    
+    <div class="container" id="display"></div>
     <script>
         let xhttp = new XMLHttpRequest();  
         xhttp.open("GET","http://localhost:3000/book");
         xhttp.send();
         xhttp.onload = function(){
-            console.log(this.responseText);
+            //console.log(this.responseText)
+            //document.getElementById("display").innerHTML = this.response;
+            let obj = JSON.parse(this.responseText);
+            console.log(obj);
+            let i = 0;
+            let temp = '';
+            for(i=0; i<obj.length;i++){
+              console.log(obj[i])
+              temp += '<tr><td>'+obj[i].title+'<>br'+
+                obj[i].description+'</td>'
+                +'<td><img src="./img/'+obj[i].picture+'"">'
+                +'</tr>'
+            }
+            document.getElementById('display').innerHTML = '<table>'+temp+'</table>';
         }
 
     </script>
