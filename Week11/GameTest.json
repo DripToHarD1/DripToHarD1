@@ -1,0 +1,113 @@
+{
+    "ROV": [
+        {
+            "id": 1,
+            "nameofHero": "Xeniel",
+            "typeofSkills": "Tank-Support",
+            "Skills": {
+                "Passive" : "Holy Brand",
+                "FirstSkill" : "Divine Protection",
+                "SecondSkill" : "Malleus",
+                "ThirdSkill" : "Angelic Splendor"
+            },
+            "HP": 3719,
+            "PhysATK": 158,
+            "MagicPower": 0,
+            "PhysDefense": 158,
+            "MagicDefense": 158,
+            "MaxMana": 158,
+            "MovementSpeed": 380
+            
+        },{
+            "id": 2,
+            "nameofHero": "Florentino",
+            "typeofSkills": "Warrior",
+            "Skills": {
+                "Passive" : "Shuffle",
+                "FirstSkill" : "Blossom",
+                "SecondSkill" : "Triple Threat",
+                "ThirdSkill" : "Gentlemen's Duel"
+            },
+            "HP": 3535,
+            "PhysATK": 170,
+            "MagicPower": 0,
+            "PhysDefense": 135,
+            "MagicDefense": 80,
+            "MaxMana": 0,
+            "MovementSpeed": 380
+            
+        },{
+            "id": 3,
+            "nameofHero": "Eland'orr",
+            "typeofSkills": "Carry",
+            "Skills": {
+                "Passive" : "Soul Seal",
+                "FirstSkill" : "Butterfly Wings",
+                "SecondSkill" : "Butterfly Dance",
+                "ThirdSkill" : "Metamorphosis"
+            },
+            "HP": 3400,
+            "PhysATK": 173,
+            "MagicPower": 0,
+            "PhysDefense": 141,
+            "MagicDefense": 80,
+            "MaxMana": 440,
+            "MovementSpeed": 350
+            
+        },{
+            "id": 4,
+            "nameofHero": "Zata",
+            "typeofSkills": "Mage",
+            "Skills": {
+                "Passive" : "Windstorm",
+                "FirstSkill" : "Eagle Screech",
+                "SecondSkill" : "Twister",
+                "ThirdSkill" : "Ascend"
+            },
+            "HP": 3585,
+            "PhysATK": 153,
+            "MagicPower": 0,
+            "PhysDefense": 141,
+            "MagicDefense": 80,
+            "MaxMana": 490,
+            "MovementSpeed": 360
+            
+        },{
+            "id": 5,
+            "nameofHero": "Paine",
+            "typeofSkills": "Assassin-Mage",
+            "Skills": {
+                "Passive" : "Soul Divide",
+                "FirstSkill" : "Soul Tidings",
+                "SecondSkill" : "Elegy",
+                "ThirdSkill" : "Acknowledge"
+            },
+            "HP": 3550,
+            "PhysATK": 179,
+            "MagicPower": 0,
+            "PhysDefense": 133,
+            "MagicDefense": 80,
+            "MaxEnergy": 100,
+            "MovementSpeed": 370
+            
+        },{
+            "id": 6,
+            "nameofHero": "Elsu",
+            "typeofSkills": "Carry",
+            "Skills": {
+                "Passive" : "Stalk",
+                "FirstSkill" : "Sentinel",
+                "SecondSkill" : "Snipe",
+                "ThirdSkill" : "Disengage"
+            },
+            "HP": 3369,
+            "PhysATK": 188,
+            "MagicPower": 0,
+            "PhysDefense": 140,
+            "MagicDefense": 80,
+            "MaxMana": 440,
+            "MovementSpeed": 350
+            
+        }
+    ]
+}
